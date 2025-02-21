@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    text-align: center;
+    text-align: left;
     margin: 0;
     padding: 0;
 }
@@ -19,8 +19,15 @@ h1, h2, h3 {
 .section p {
     text-align: justify;
 }
-img {
-    border-radius: 50%; /* Membuat foto bulat */
+.profile-pic {
+    width: 150px !important;
+    height: 150px !important;
+    max-width: 100px; /* Batas ukuran maksimum */
+    max-height: 100px; /* Batas ukuran maksimum */
+    border-radius: 50%; /* Membuat gambar bulat */
     display: block;
     margin: 0 auto;
+    object-fit: cover; /* Memastikan gambar tidak terdistorsi */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden; /* Mencegah gambar membesar */
 }
