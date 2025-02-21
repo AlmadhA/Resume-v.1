@@ -19,3 +19,8 @@ h1, h2, h3 {
 .section p {
     text-align: justify;
 }
+img {
+    border-radius: 50%; /* Membuat foto bulat */
+    display: block;
+    margin: 0 auto;
+}
